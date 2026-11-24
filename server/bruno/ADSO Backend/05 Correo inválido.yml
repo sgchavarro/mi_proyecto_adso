@@ -1,0 +1,19 @@
+info:
+  name: 05 Correo inválido
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/dev/users"
+  body:
+    type: json
+    data: '{"email": "no existe"}'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
