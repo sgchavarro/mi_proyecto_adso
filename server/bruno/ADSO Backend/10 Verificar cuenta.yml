@@ -1,7 +1,7 @@
 info:
   name: 10 Verificar cuenta
   type: http
-  seq: 8
+  seq: 10
 
 http:
   method: PATCH

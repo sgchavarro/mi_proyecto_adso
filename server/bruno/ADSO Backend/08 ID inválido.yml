@@ -1,15 +1,11 @@
 info:
   name: 08 ID inválido
   type: http
-  seq: 6
+  seq: 8
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/dev/users/:id"
-  params:
-    - name: id
-      value: ""
-      type: path
+  url: "{{baseUrl}}/api/dev/users/123"
   auth: inherit
 
 settings:
